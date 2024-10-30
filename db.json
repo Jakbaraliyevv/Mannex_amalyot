@@ -1,0 +1,41 @@
+{
+    "products":[
+    {
+      "id": 1,
+      "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+      "img": "https://www.prom.uz/_ipx/f_webp/https://devel.prom.uz/upload/reduced//products/2023/10/18/1/55.PNG",
+      "price": 191900
+    },
+    {
+      "id": 2,
+      "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+      "img": "https://olcha.uz/image/700x700/products/2022-07-08/avtoshiny-debica-navigator-3-1956015-4sht-64479-0.jpg",
+      "price": 191900
+    },
+    {
+        "id": 3,
+        "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWeel9yNXz-Xdul6ZLplQ4C_aO-SDKmNjfA&s",
+        "price": 191900
+      },
+      {
+        "id": 4,
+        "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+        "img": "https://www.prom.uz/_ipx/f_webp/https://devel.prom.uz/upload/reduced//products/2023/10/18/1/55.PNG",
+        "price": 191900
+      },
+      {
+        "id": 5,
+        "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_s25J7ua13eHeqOkY0K5qizBJ7kmQKyzlQ&s",
+        "price": 191900
+      },
+      {
+        "id": 6,
+        "title": "Shinalar LASSA MULTIWAYS2 215/55/R17",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRynnslvDzb9A6iARnem3YfByB0wWqxaUQF17IEqwDlPNOeT-sSK_gq_xC8V10PUJPNIVk&usqp=CAU",
+        "price": 191900
+      }
+  ]
+}
+  
