@@ -1,0 +1,62 @@
+.footer {
+  margin-top: 120px;
+  background: #f5f5f5;
+
+}
+
+.footer > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  align-items: start;
+}
+
+.footer__logo p,
+.footer__logo a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.footer__links,
+.footer__sosial,
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__links p {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+}
+
+.footer__links a {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  color: #434242;
+}
+
+.sosial {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer__sosial > p {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+}
+
+.sosial a i {
+  font-size: 22px;
+  color: #434242;
+}
+.sosial a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #434242;
+}

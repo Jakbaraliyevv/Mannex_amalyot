@@ -1,0 +1,96 @@
+.second__top h3 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #434242;
+  padding-bottom: 20px;
+}
+
+.second_first {
+  margin-top: 30px;
+}
+
+.second_first p,
+.second_second p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.first > input {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  outline: none;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.second > input {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  outline: none;
+}
+
+.second_thrid {
+  margin-top: 30px;
+}
+
+.second_thrid p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.second_thrid input {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  outline: none;
+}
+
+.second__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.second__btn button {
+  width: 470px;
+  height: 100px;
+  box-shadow: 0 20px 50px 0 rgba(255, 129, 129, 0.3);
+  background: linear-gradient(180deg, #ff5454 0%, #cd4848 100%);
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.second__btn p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+}
+
+.second__btn span {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #ff8181;
+}

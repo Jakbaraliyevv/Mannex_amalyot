@@ -1,0 +1,140 @@
+.katalog__top {
+  position: relative;
+}
+
+.katalog__text {
+  position: absolute;
+  top: 40px;
+}
+
+.katalog__text h3 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #434242;
+}
+
+.katalog__middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.li a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #434242;
+}
+
+.katalog__bottom__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 340px;
+  height: 550px;
+  padding: 40px;
+  border: 1px solid #43424233;
+  box-shadow: 0px 10px 25px 0px #77777733;
+}
+
+.katalog__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.katalog__form select {
+  width: 265.31px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border: 1px solid #434242;
+  padding-left: 10px;
+}
+
+.katalog__btr {
+  width: 265px;
+  height: 63.83px;
+  background: #4ba9ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.18px;
+  color: #fff;
+}
+
+.card {
+  width: 325px;
+  height: auto;
+  border: 1px;
+  background: #ffffff;
+  border: 1px solid #a6a6a6;
+  padding: 20px;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btnlar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btnlar i {
+  font-size: 22px;
+  color: #4ba9ff;
+}
+.plus_minus {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btnlar > button {
+  width: 80px;
+  height: 25px;
+  background: #4ba9ff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17.89px;
+  color: #ffffff;
+}
+
+.plus_minus {
+  width: 80px;
+  height: 25px;
+  border: 1px;
+  border: 1px solid #00000033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus_minus > button {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.katalog__bottom {
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.katalog__bottom__right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+

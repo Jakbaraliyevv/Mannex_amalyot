@@ -1,0 +1,43 @@
+.bag__text {
+  position: absolute;
+  top: 60px;
+}
+
+.bag__text h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #434242;
+}
+.company__top {
+  position: relative;
+}
+
+.company__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.company__bottom__left P {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+.company__bottom__left button {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 470px;
+  height: 99px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.company__bottom__right img {
+  width: 656.72px;
+  height: 493.25px;
+}

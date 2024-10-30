@@ -1,0 +1,74 @@
+// .thrid__top{
+//     text-align: center;
+// }
+
+.all_thrid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.thrid__top h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.38px;
+  color: #434242;
+  padding-bottom: 15px;
+}
+
+.thrid__top p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.form_thrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.form_thrid input {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  outline: none;
+}
+.thrid__bottom__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.thrid__bottom__btn button {
+  width: 100%;
+  padding: 10px;
+  background: #4ba9ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.18px;
+  color: #fff;
+}
+
+.thrid__bottom__btn p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.4px;
+  color: #000;
+  text-align: center;
+}
+
+.thrid__bottom__btn span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.4px;
+  color: aquamarine;
+  margin-top: 10px;
+}
