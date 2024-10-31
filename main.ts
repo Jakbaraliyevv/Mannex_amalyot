@@ -1,27 +1,22 @@
-// Katalog bo'limini DOM elementiga olish
 const katalog__bottom__right = document.querySelector(".katalog__bottom__right") as HTMLElement;
 
-// API URL manzili
 const apii = "https://6718988a7fc4c5ff8f4a1f17.mockapi.io/users";
 
-// Ma'lumot tuzilmasi uchun interface
 interface Product {
   img: string;
   title_name: string;
   price: string;
   title: string;
-  category: string;  // Optional maydon
+  category: string;  
 }
 
-// API'dan ma'lumotlarni olish
 fetch(apii)
   .then((response) => response.json())
   .then((data: Product[]) => renderProducts(data))
   .catch((error) => console.error("Error:", error.message));
 
-// Ma'lumotlarni ekranga chiqarish funksiyasi
 function renderProducts(products: Product[]) {
-  katalog__bottom__right.innerHTML = '';  // Avvalgi ma'lumotlarni tozalash
+  katalog__bottom__right.innerHTML = ''; 
 
   products.forEach((product) => {
     if (product.img && product.title_name && product.price && product.title) {
@@ -49,7 +44,6 @@ function renderProducts(products: Product[]) {
   });
 }
 
-// Plus va minus tugmalariga click hodisasini qo'shish
 katalog__bottom__right.addEventListener("click", (e: MouseEvent) => {
   const target = e.target as HTMLElement;
 
@@ -67,31 +61,28 @@ katalog__bottom__right.addEventListener("click", (e: MouseEvent) => {
   }
 });
 
-// Kategoriya bo'yicha ma'lumotlarni filtrlash
 const ul = document.querySelector("ul") as HTMLElement;
 
 ul?.addEventListener("click", (e: MouseEvent) => {
   const target = (e.target as HTMLElement).closest('a');  // 'a' tegi uchun 'closest' dan foydalaning
   if (target) {
     const id = target.id;
-    filterData(id);  // Filtrlash funksiyasi
+    filterData(id);  
   }
 });
 
-// Filtr funksiyasi: API'dan ma'lumotlarni olish va filtrlash
 function filterData(id: string) {
   fetch(apii)
     .then((response) => response.json())
     .then((data: Product[]) => {
       const filteredData = data.filter((item) => item.category === id);
-      renderFilteredProducts(filteredData);  // Filtrlashdan keyin ekranga chiqarish
+      renderFilteredProducts(filteredData);   
     })
     .catch((error) => console.error('Error:', error.message));
 }
 
-// Filtrlangan ma'lumotlarni ekranga chiqarish funksiyasi
 function renderFilteredProducts(filteredProducts: Product[]) {
-  katalog__bottom__right.innerHTML = '';  // Avvalgi ma'lumotlarni tozalash
+  katalog__bottom__right.innerHTML = '';  
 
   filteredProducts.forEach((product) => {
     if (product.img && product.title_name && product.price && product.title) {
